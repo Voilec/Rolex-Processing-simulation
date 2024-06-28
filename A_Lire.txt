@@ -1,0 +1,23 @@
+Exemples Processing 4.0
+### Note Importante sur la Structure des Fichiers pour les images
+La position correcte des fichiers dans les sous-répertoires est cruciale. 
+Si un fichier image n'est pas trouvé à l'endroit attendu, le programme se bloque avec une fenêtre blanche sans aucun message expliquant l'erreur, ce qui rend le diagnostic difficile. 
+Veuillez faire attention lorsque vous modifiez les répertoires !
+1. **Rolex.pde** - Cet exemple montre comment construire des formes (aiguilles) qui se mettent à jour toutes les secondes.
+2. **Demo_rotate.pde** - Cet exemple utilise des images uniques pour les aiguilles et les fait tourner avec la méthode `rotate`.
+### Structure des Répertoires attendue
+Pour que le programme Rolex fonctionne correctement, les fichiers doivent être organisés comme suit :
+Rolex930  = loadImage("../Images/Rolex_1130x930.png");
+Base/Rolex_240619/Rolex_240619.pde
+Base/Demo_Rotate_240619/Demo_Rotate_240619.pde
+Base/Images/Rolex_1130x930.png
+/////////////////////////////////////////////////
+Bezier curves > Full moon
+Un bac à sable et un exemple des puissantes courbes de Bézier.
+Pierre Bézier (1910 - 1999) brillant ingénieur français chez Renault.
+/////////////////////////////////////////////////
+Transparence
+Petit exercice simpliste montrant l’influence du paramètre transparence.
+/////////////////////////////////////////////////
+Christian Couderc   www.voilec.com
+Copyright 2024
